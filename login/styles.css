@@ -1,0 +1,132 @@
+body {
+	height: 100%;
+	font-family: Poppins-Regular;
+    padding: 20px;
+    background: #1861AE,;
+    background: -webkit-linear-gradient(135deg, #1861AE, #00CC65);
+    background: -o-linear-gradient(135deg, #1861AE, #00CC65);
+    background: -moz-linear-gradient(135deg, #1861AE, #00CC65);
+    background: linear-gradient(135deg, #1861AE, #00CC65);
+  }
+  
+  h1 {
+    font-family: Poppins-Regular;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  
+  h2 {
+    font-family: Poppins-Regular;
+    font-size: 30px;
+  }
+  
+  .established {
+    font-style: italic;
+  }
+  
+  h1, h2, p, a {
+    font-family: Poppins-Regular;
+    text-align: center;
+  }
+  
+  .login {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+    background-color: #fff ;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+    border-radius: 25px;
+    
+  }
+  
+  img {
+    font-family: Poppins-Regular;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+  }
+hr {
+    height: 2px;
+    background-color: rgb(82, 77, 77);
+    border-color: rgb(82, 77, 77);
+  }
+  
+  .bottom-line {
+    margin-top: 25px;
+  }
+  
+  h1, h2 {
+    font-family: Impact, serif;
+  }
+  
+  
+  .price {
+    font-family: Poppins-Regular;
+
+    text-align: right;
+    width: 25%;
+  }
+  
+  /* FOOTER */
+  
+  footer {
+    font-size: 14px;
+  }
+  
+
+
+  
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #fff;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+input, textarea {
+  
+	font-family: Poppins-Regular;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #666666;
+  width: 85%;
+  background: #e6e6e6;
+  height: 50px;
+  border-radius: 15px;
+  padding: 0 30px 0 50px;
+  outline: none;
+  border: none;
+
+
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type="file"] {
+  padding: 1px 2px;
+}
+
