@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <img src="logo.jpg" alt="Skill Queue logo"/>
+    <img src="mini_logo.jpg" alt="Skill Queue logo"/>
     <title>Registration Form</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
@@ -12,10 +12,10 @@
     <p>Please fill out this form with the required information</p>
     <form method="post" action='https://register-demo.freecodecamp.org'>
       <fieldset>
-        <label for="first-name"><input id="first-name" name="first-name" type="text" placeholder="Enter Your First Name:" required /></label>
-        <label for="last-name"><input id="last-name" name="last-name" type="text" placeholder="Enter Your Last Name:" required /></label>
-        <label for="email"><input id="email" name="email" type="email" placeholder="Enter Your Email:" required /></label>
-        <label for="new-password"><input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}" placeholder="Create a New Password:" required /></label>
+        First Name:<label class="form" for="first-name"><input id="first-name" name="first-name" type="text" placeholder="Enter Your First Name:" required /></label>
+        Last Name:<label class="form" for="last-name"><input id="last-name" name="last-name" type="text" placeholder="Enter Your Last Name:" required /></label> 
+        Email:<label class="form" for="email"><input id="email" name="email" type="email" placeholder="Enter Your Email:" required /></label>
+        Password:<label class="form" for="new-password"><input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}" placeholder="Create a New Password:" required /></label>
       </fieldset>
       <fieldset>
         <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" /> Personal Account</label>
@@ -40,10 +40,10 @@
           <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
         </label>
       </fieldset>
-      <input type="submit" value="Submit" />
+      <input class="butao" type="submit" value="Submit" />
     </form>
   </div>
-  <nav></nav>
+
   
   </body>
 </html>

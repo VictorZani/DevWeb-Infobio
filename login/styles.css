@@ -3,10 +3,10 @@ body {
 	font-family: Poppins-Regular;
     padding: 20px;
     background: #1861AE,;
-    background: -webkit-linear-gradient(135deg, #1861AE, #00CC65);
-    background: -o-linear-gradient(135deg, #1861AE, #00CC65);
-    background: -moz-linear-gradient(135deg, #1861AE, #00CC65);
-    background: linear-gradient(135deg, #1861AE, #00CC65);
+    background: -webkit-linear-gradient(135deg,  #D0BAFB, #FBC3FB);
+    background: -o-linear-gradient(135deg,  #D0BAFB, #FBC3FB);
+    background: -moz-linear-gradient(135deg,  #D0BAFB, #FBC3FB);
+    background: linear-gradient(135deg,  #D0BAFB, #FBC3FB);
   }
   
   h1 {
@@ -32,11 +32,11 @@ body {
   
   .login {
     font-family: Arial, Helvetica, sans-serif;
-    width: 70%;
+    width: 80%;
     background-color: #fff ;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px;
+    padding: 20px ;
     max-width: 500px;
     border-radius: 25px;
     
@@ -44,10 +44,13 @@ body {
   
   img {
     font-family: Poppins-Regular;
-    display: block;
+  
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
     border-radius: 25px;
+    justify-content: center;
+
   }
 hr {
     height: 2px;
@@ -93,6 +96,7 @@ fieldset:last-of-type {
 label {
   display: block;
   margin: 0.5rem 0;
+  font-family: Poppins-Regular;
 }
 
 input,
@@ -130,3 +134,37 @@ input[type="file"] {
   padding: 1px 2px;
 }
 
+
+input[type="submit"] {
+  display: block;
+  width: 50%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #07d60b;
+  border-color: white;
+  color:black;
+  text-align: center;
+
+}
+
+.terms{
+  text-align: center;
+}
+
+.butao{
+
+  display: block;
+  margin: 0 auto ;
+  width: 200px;
+  height: 50px;
+  border-radius: 15px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  background-color: #07d60b;
+  border-color: white;
+  color:black;
+ margin-bottom: 3vh;
+}

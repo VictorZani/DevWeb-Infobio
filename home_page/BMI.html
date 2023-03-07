@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="freeCodeCamp Accessibility Quiz practice project" />
+    <title>Imc Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+
+      <h1>Calculate BMI</h1>
+      <nav>
+        <ul>
+          <li><a href="#student-info" accesskey="s">Calendar</a></li>
+          <li><a href="#html-questions" accesskey="h">Graphics</a></li>
+          <li><a href="#css-questions" accesskey="c">Profile</a></li>
+        </ul>        
+      </nav>
+    </header>
+    <main>
+      <form method="post" >
+        <section role="region" aria-labelledby="student-info">
+          <h2 id="info">Information</h2>
+          <div class="info">
+            <fieldset>
+              <label for="peso"> Weight (kg):</label>
+              <input  type="number" id="weight" name="peso" step="0.01" min="0" >
+              <label for="altura"> Height (m):</label>
+              <input type="number" id="height" name="altura" step="0.01" min="0">
+            </fieldset>
+          </div>
+          <div class="resultado">
+            <p>Your BMI is: <span id="bmi-result"></span></p>
+            <p>Situation: <span id="bmi-category"></span></p>
+          </div>
+        <section role="region" aria-labelledby="html-questions">
+          <h2 id="html-questions">What the results means?</h2>
+          <div class="question-block">
+            <fieldset class="question" name="html-question-one">
+              <legend>
+                <ul>
+                  <li>Underweight: BMI less than 18.5</li>
+                  <li>Normal weight: BMI between 18.5 and 24.9</li>
+                  <li>Overweight: BMI between 25 and 29.9</li>
+                  <li>Obesity (Class I): BMI between 30 and 34.9</li>
+                  <li>Obesity (Class II): BMI between 35 and 39.9</li>
+                  <li>Obesity (Class III): BMI equal to or greater than 40</li>
+                </ul>
+              </legend>
+            </fieldset>
+          </div>
+        </section>
+        </section>
+
+      
+      </form>
+      <div>
+				<button class="butao" type="button" id="calculate-bmi">Calculate BMI</button>
+			</div>
+		</section>
+	</form>
+	<script src="script.js"></script>
+
+    </main>
+    <footer>
+      <address>
+        <a>Zanin Corps</a><br />
+        Cincinnati<br />
+        Ohio<br />
+        USA
+      </address>
+    </footer>
+  </body>
+</html>

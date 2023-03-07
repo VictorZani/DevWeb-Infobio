@@ -3,7 +3,7 @@ html, body {
 }
 
 body {
-  background: linear-gradient(to bottom right,  #1861AE, #00CC65);
+  background: linear-gradient(to bottom right,  #D0BAFB, #FBC3FB);
   background-size: 100vw 100vw;
   background-attachment: fixed;
   
@@ -47,6 +47,7 @@ fieldset {
   justify-content: center;
   flex-direction: column;
   border-bottom-width: 100%;
+  margin: 2rem 10px 10 0;
 
   
 }
@@ -58,6 +59,7 @@ fieldset:last-of-type {
 label {
   display: block;
   margin: 0.5rem 0;
+  
 }
 
 input,
@@ -85,13 +87,13 @@ input, textarea {
   color: #666666;
   width: 100%;
   background-color: #e6e6e6;
-  border-color: white;
+  border-color: rgba(255, 255, 255, 0.86);
 
   height: 50px;
   border-radius: 15px;
   padding: 0 10px 0 10px;
   outline: none;
-  border: none;
+
 
 }
 
@@ -107,9 +109,10 @@ input[type="submit"] {
   margin: 1em auto;
   height: 1em;
   font-size: 1.1rem;
-  background-color: #e6e6e6;
+  background-color: #07d60b;
   border-color: white;
   justify-content: center;
+  text-align: center;
 
 }
 
@@ -132,10 +135,9 @@ input[name="age"] {
   padding: 0 10px 0 20px;
   height: 1em;
   font-size: 1.1rem;
-  background-color: #e6e6e6;
-  border-color: white;
-
   border-radius: 15px;
+  background-color: #e6e6e6;
+  border-color: rgba(255, 255, 255, 0.86);
 }
 
 
@@ -161,4 +163,32 @@ img {
   max-width: 500px;
   border-radius: 25px;
   
+}
+
+
+
+.form {
+  display: block;
+  margin: 0 0 1rem;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.butao{
+
+  display: block;
+  margin: 0 auto ;
+  width: 200px;
+  height: 50px;
+  border-radius: 15px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  background-color: #07d60b;
+  border-color: white;
+  color:black;
+  text-align: center;
+ margin-bottom: 3vh;
 }
